@@ -20,14 +20,14 @@
 }
 .podcast-title {
     font-family: "beatrice-semibold";
-    font-size: 20pt;
-    margin: 10px 0 0;
-    color: #333;
+    font-size: 25pt;
+    margin: 20px 0 0;
+    color: #000;
 }
 
 .podcast-subtitle {
     font-family: "beatrice-thin";
-    font-size: 12pt;
+    font-size: 10pt;
     color: #999;
     margin: 0;
 }
