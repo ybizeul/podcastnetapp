@@ -1,0 +1,40 @@
+@font-face {
+    font-family: beatrice-semibold;
+    src: url(fonts/Beatrice-Semibold.ttf);
+}
+@font-face {
+    font-family: beatrice-light;
+    src: url(fonts/Beatrice-light.ttf);
+}
+@font-face {
+    font-family: beatrice-thin;
+    src: url(fonts/Beatrice-thin.ttf);
+}
+@font-face {
+    font-family: beatrice;
+    src: url(fonts/Beatrice-regular.ttf);
+}
+@font-face {
+    font-family: beatrice-extrabold;
+    src: url(fonts/Beatrice-Extrabold.ttf);
+}
+.podcast-title {
+    font-family: "beatrice-semibold";
+    font-size: 20pt;
+    margin: 10px 0 0;
+    color: #333;
+}
+
+.podcast-subtitle {
+    font-family: "beatrice-thin";
+    font-size: 12pt;
+    color: #999;
+    margin: 0;
+}
+
+.podcast-description {
+    font-family: "beatrice";
+    font-size: 12pt;
+    color: #333;
+    margin-top: 20px;
+}
