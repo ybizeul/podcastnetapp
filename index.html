@@ -82,7 +82,42 @@
             </div>
         </div>
         <!-- /podcast info -->
-       <iframe src="https://embed.podcasts.apple.com/us/podcast/le-podcast-netapp/id1535608841?itsct=podcast_box_player&amp;itscg=30200&amp;theme=auto" height="450px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 820px; overflow: hidden; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; background-color: transparent; background-position: initial initial; background-repeat: initial initial;"></iframe>
+        <!-- BuzzSprout small player -->
+        <!--
+        <div id='buzzsprout-small-player-1414465'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/1414465.js?container_id=buzzsprout-small-player-1414465&player=small'></script>
+        -->
+        <!-- BuzzSprout big player -->
+        <div id='buzzsprout-large-player-1414465'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/1414465.js?container_id=buzzsprout-large-player-1414465&player=large'></script>
+        <!-- Apple Player -->
+        <!--
+        <iframe src="https://embed.podcasts.apple.com/us/podcast/le-podcast-netapp/id1535608841?itsct=podcast_box&amp;itscg=30200" height="450px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 820px; overflow: hidden; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; background-color: transparent; background-position: initial initial; background-repeat: initial initial;"></iframe>
+        -->
+        <div class="modal-takeover hide" data-target="modal.modalWindow" data-action="click->modal#hideSelf">
+            <div class="listen-modal">
+                <div type="button" class="listen-modal--close" data-target="modal.trigger" data-action="click->modal#hide">×</div>
+                <h3 class="listen-modal--title">Listen to this podcast on</h3>
+
+                <div class="listen-modal__list" data-target="listing.iconList">
+                    <a class="listen-modal__item--apple" href="https://podcasts.apple.com/fr/podcast/le-podcast-netapp/id1535608841?l=en">Apple Podcasts</a>
+                    <a class="listen-modal__item--spotify" href="https://open.spotify.com/show/1gqPLEo5mRGlK15GkzgWK2">Spotify</a>
+                    <a class="listen-modal__item--overcast" href="https://overcast.fm/itunes1535608841">Overcast</a>
+                    <a class="listen-modal__item--stitcher" href="https://www.stitcher.com/podcast/le-podcast-netapp">Stitcher</a>
+                    <a class="listen-modal__item--tunein" href="https://tunein.com/podcasts/Technology-Podcasts/Le-Podcast-NetApp-p1375239/">TuneIn + Alexa</a>
+                    <a class="listen-modal__item--podcastaddict" href="https://podcastaddict.com/podcast/3132167">Podcast Addict</a>
+                    <a class="listen-modal__item--castro" href="https://castro.fm/itunes/1535608841">Castro</a>
+                    <a class="listen-modal__item--castbox" href="https://castbox.fm/vic/1535608841?ref=buzzsprout">Castbox</a>
+                    <a class="listen-modal__item--podchaser" href="https://www.podchaser.com/podcasts/le-podcast-netapp-1495373">Podchaser</a>
+                    <a class="listen-modal__item--pocketcasts" href="https://pca.st/itunes/1535608841">Pocket Casts</a>
+                    <a class="listen-modal__item--deezer" href="https://www.deezer.com/show/1851962">Deezer</a>
+                    <a class="listen-modal__item--listennotes" href="https://www.listennotes.com/c/dd1f61e2897244a6a4818c226dbed535/">Listen Notes</a>
+                    <a class="listen-modal__item--playerfm" href="https://player.fm/series/series-2806234">Player FM</a>
+                    <a class="listen-modal__item--rss" target="_blank" href="https://feeds.buzzsprout.com/1414465.rss">RSS Feed</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /container -->
+    <!-- /footer -->
 
     <div class="google_spacer"></div>
 </body>
